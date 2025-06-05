@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Firebase Chat App",
+			"type": "shell",
+			"command": "flutter run",
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$flutter"
+			]
+		}
+	]
+}

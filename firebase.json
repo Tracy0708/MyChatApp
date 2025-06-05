@@ -1,0 +1,27 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "fir-chat-app-2e3e7",
+          "appId": "1:139103647006:android:62019d5e86ecedf01a850f",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "fir-chat-app-2e3e7",
+          "configurations": {
+            "android": "1:139103647006:android:62019d5e86ecedf01a850f",
+            "ios": "1:139103647006:ios:e8bd78a7799c944c1a850f",
+            "macos": "1:139103647006:ios:e8bd78a7799c944c1a850f",
+            "web": "1:139103647006:web:3a0732363660d8061a850f",
+            "windows": "1:139103647006:web:ef5b9c93a0601df01a850f"
+          }
+        }      }
+    }
+  }
+}
